@@ -1,0 +1,1 @@
+INSERT INTO `dede_mynews` VALUES('1','0','巷御生','admin','1280751222','<p>最最祥指社</p>');

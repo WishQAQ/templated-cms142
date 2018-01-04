@@ -1,0 +1,1 @@
+<a href="[field:typelink/]" id="backto-list" class="backto-list"><span></span></a>

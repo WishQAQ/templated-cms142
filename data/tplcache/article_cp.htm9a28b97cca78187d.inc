@@ -1,0 +1,45 @@
+<?php
+$z[0]=Array("field","",250,269);
+$z[0][4]['name']="title";
+$z[1]=Array("global","",270,296);
+$z[1][4]['name']="cfg_webname";
+$z[2]=Array("field","",337,359);
+$z[2][4]['name']="keywords";
+$z[3]=Array("field","",399,450);
+$z[3][4]['name']="description";
+$z[3][4]['function']="html2text(@me)";
+$z[4]=Array("include","",6382,6417);
+$z[4][4]['filename']="head.htm";
+$z[5]=Array("field","",6712,6770);
+$z[5][4]['name']="typeid";
+$z[5][4]['function']="GetTopTypename(@me)";
+$z[6]=Array("channel","\r\n              <li id=\"item-520\" class=\"item-520\"><a href=\"[field:typelink/]\">[field:typename/]</a></li>\r\n              ",6924,7215);
+$z[6][4]['type']="son";
+$z[6][4]['currentstyle']="<li class='active'><a href='~typelink~' class='thisclass'>~typename~</a> </li>";
+$z[7]=Array("field","",7880,7909);
+$z[7][4]['name']="position";
+$z[8]=Array("field","",8023,8042);
+$z[8][4]['name']="title";
+$z[9]=Array("field","",8213,8241);
+$z[9][4]['name']="picname";
+$z[10]=Array("field","",8579,8595);
+$z[10][4]['name']="dy";
+$z[11]=Array("field","",8668,8684);
+$z[11][4]['name']="gl";
+$z[12]=Array("field","",8864,8880);
+$z[12][4]['name']="pf";
+$z[13]=Array("field","",8959,8975);
+$z[13][4]['name']="zs";
+$z[14]=Array("field","",9155,9171);
+$z[14][4]['name']="sw";
+$z[15]=Array("field","",9246,9262);
+$z[15][4]['name']="tl";
+$z[16]=Array("field","",9399,9415);
+$z[16][4]['name']="jd";
+$z[17]=Array("field","",9593,9611);
+$z[17][4]['name']="body";
+$z[18]=Array("type","<a href=\"[field:typelink/]\" id=\"backto-list\" class=\"backto-list\"><span></span></a>",9960,10065);
+$z[19]=Array("include","",11037,11074);
+$z[19][4]['filename']="footer.htm";
+
+?>

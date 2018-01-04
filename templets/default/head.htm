@@ -1,0 +1,36 @@
+<div id="header" class="innerhead">
+  <div class="header-container frame960 ">
+    <h1 id="logo"><a href="/"></a></h1>
+    <div class="lang-div"></div>
+    <div id="main-menu" class="innermainmenu">
+      <ul class="menu">
+        <li class="item-first"></li>
+        <li id="item-21" class="item-21"><a href="/">Ê×Ò³</a></li>
+        {dede:channel row='5'  type ='top' currentstyle="
+        <li class='current active'><a href='~typelink~' class='thisclass'>~typename~</a> </li>
+        " }
+        <li id="item-512" class="item-512"><a href="[field:typelink/]">[field:typename/]</a></li>
+        {/dede:channel} 
+        <!--
+<li id="item-479" class="item-479"><a href="javascript:;">??</a></li>	player.swf-->
+        
+        <li class="item-end"></li>
+      </ul>
+      <script type="text/javascript">$(document).ready(function(){
+		var anim_time = 300;
+		var child_top = 39;
+		var child_left = eval("({})");
+		$("#main-menu .menu li.deeper").each(function(){
+			$(this).find("ul").css({top:(child_top+10)+"px"});
+		});
+		var cur_child_id = 0;
+		$("#main-menu .menu li.deeper").hover(function(){
+			$(this).find("ul").stop().css({opacity:0,display:"block"}).animate({opacity:1,top:child_top+"px"},anim_time);
+		},function(){
+			$(this).find("ul").stop().animate({opacity:0,top:(child_top+10)+"px"},anim_time,function(){$(this).css({display:"none"});});
+		});
+	});</script>
+      <div class="clr"></div>
+    </div>
+  </div>
+</div>

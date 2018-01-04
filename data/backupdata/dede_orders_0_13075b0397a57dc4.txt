@@ -1,0 +1,2 @@
+INSERT INTO `dede_orders` VALUES('1','1','admin','º«¹ú¹Ì³Ý½¡¾×ÊþÆ¬Ò»ºÐ£¨ÈýÆ¿180Á££©258Ôª','asdasdasdadhkwnasd','13475520010','1347552001011@qq.com','0','','','','1364010915');
+INSERT INTO `dede_orders` VALUES('1','1','admin','º«¹ú¹Ì³Ý½¡¾×ÊþÆ¬Ò»ºÐ£¨ÈýÆ¿180Á££©258Ôª','asdasdasdadhkwnasd','13475520010','1347552001011@qq.com','0','','','','1364010915');

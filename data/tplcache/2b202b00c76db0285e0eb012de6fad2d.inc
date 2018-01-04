@@ -1,0 +1,1 @@
+<div style="position: absolute; left: 0px; top: 0px; opacity: 0; z-index: 1;" id="[field:id/]" class="item active"><span class="item-content" style="background-image:url([field:litpic/])"> </span></div>
